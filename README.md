@@ -116,3 +116,11 @@ flux suivant :
 - std::cin : flux d’entrée depuis l’entrée standard (stdin) ;  
 - std::cout : flux de sortie vers la sortie standard (stdout) ;  
 - std::cerr : flux de sortie vers la sortie d’erreurs (stderr ). 
+
+## Allocation mémoire
+    - Automatique (fait automatiquement par le compilateur).
+    - Dynamique (allouée explicitement sur le tas (heap)).
+    - Toute mémoire allouée dynamiquement doit être libérée
+    - dynamiquement.
+    - Algorithmes d’allocation/libération (dépendant du
+    - compilateur/système d’exploitation).
