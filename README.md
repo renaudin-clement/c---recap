@@ -97,3 +97,11 @@ int n=0;
 int ∗pointeur = &n;
 ∗pointeur = 5; // effet : n=5
 std::cout << "n=" << ∗pointeur << std::endl;
+
+
+#### Références de pointeurs
+
+int n = 2;
+int& ref_n = n;
+n = 3;
+std::cout << "ref_n=" << ref_n << std::endl;
