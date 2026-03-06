@@ -105,3 +105,14 @@ int n = 2;
 int& ref_n = n;
 n = 3;
 std::cout << "ref_n=" << ref_n << std::endl;
+
+
+
+## Entrée standard et sortie standard
+
+Pour avoir accès aux flux standards de la bibliothèque standard de C++,
+il faut inclure le fichier d’entête iostream. Ce dernier définit les trois
+flux suivant :  
+- std::cin : flux d’entrée depuis l’entrée standard (stdin) ;  
+- std::cout : flux de sortie vers la sortie standard (stdout) ;  
+- std::cerr : flux de sortie vers la sortie d’erreurs (stderr ). 
