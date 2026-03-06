@@ -1,0 +1,2 @@
+compilation
+ g++ cours1.cpp -o exo1
