@@ -28,3 +28,9 @@ Tout symbole utilisé doit être défini à l’édition des liens.
 .cpp = definition et .hpp = declaration 
 
 ---
+
+### executer plusier fichier relier a h
+g++ appelleallo.cpp allo.cpp -o exo1
+
+ou plus rapide 
+g++ *.cpp -o exo1
