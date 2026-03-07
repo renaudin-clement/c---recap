@@ -124,3 +124,42 @@ flux suivant :
     - dynamiquement.
     - Algorithmes d’allocation/libération (dépendant du
     - compilateur/système d’exploitation).
+
+## Constructeur et Destructeur
+ a se renseignier
+
+### Constructeur
+Un constructeur porte le nom de la classe et peut avoir zéro, un ou
+plusieurs arguments. Comme son nom l’indique, le rôle d’un
+constructeur est de construire (instancier) un objet. Un constructeur
+effectue dans l’ordre :  
+
+- appelle le constructeur de la ou des classes héritées ;
+- appelle le constructeur de chaque variable d’instance ;
+- exécute le code dans le corps du constructeur.
+
+### Destructeur
+a se renseignier
+
+## mension honorable
+
+### Mot clé const
+
+Le mot clé const est très important en C++.
+- L’objectif est d’aider le programmeur à éviter des bogues.  
+- Permet de spécifier que quelque chose ne doit pas être modifié.  
+- Si le programme tente de modifier un objet const, le compilateur va générer une erreur.  
+- Important : const ne doit être utilisé comme un dispositif de sécurité. Le mécanisme de const est seulement une aide au programmeur.  
+
+#### Contexte
+
+Utile pour spécifier :  
+
+    - une constante (ex. : const double pi=3.141592654;)  
+    - que l’objet référencé par une référence doit être constant (ex. :const Point& rp = p;)  
+    - que l’objet pointé par un pointeur ne doit pas être modifié (ex. : const Point* rp = &p;)  
+
+Très utilisé dans le passage de paramètres.  
+
+## Surcharge d’opérateurs et  Chaîne d’appels à >>
+a voir
